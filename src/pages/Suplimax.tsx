@@ -1,4 +1,5 @@
-import React, { useState, FormEvent } from "react";
+import { useState } from "react";
+import type { FormEvent } from "react"; 
 import VideoPlayer from "../components/VideoPlayer";
 import { FaBolt, FaSpinner } from "react-icons/fa";
 import { GiEnergyBreath } from "react-icons/gi";

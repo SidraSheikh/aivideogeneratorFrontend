@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import { useRef, useState } from "react";
 import { FaDownload, FaPlay, FaPause } from "react-icons/fa";
 
 interface VideoPlayerProps {
@@ -33,9 +33,7 @@ export default function VideoPlayer({
   };
 
   const handleDownload = () => {
-    // In a real app, you would implement actual download logic
     console.log("Downloading video from:", videoUrl);
-    // This is just a mock implementation
     const link = document.createElement("a");
     link.href = videoUrl;
     link.download = "generated-video.mp4";

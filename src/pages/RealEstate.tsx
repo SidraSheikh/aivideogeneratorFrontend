@@ -1,4 +1,5 @@
-import React, { useState, FormEvent } from "react";
+import { useState } from "react";
+import type { FormEvent } from "react"; // Separate type import
 import VideoPlayer from "../components/VideoPlayer";
 import { FaHome, FaSpinner, FaCheckCircle } from "react-icons/fa";
 import { GiModernCity } from "react-icons/gi";
